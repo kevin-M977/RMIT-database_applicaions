@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8BB8DD94-B29F-CB55-2A00-BD4BDE9FA1D0" name="Candidate">
+<createdBy>user</createdBy>
+<createdTime>2023-08-08 23:25:09 UTC</createdTime>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Candidate_Name" id="7A9E9797-120B-4801-3A4F-E6E69FBDB814">
+<createdBy>user</createdBy>
+<createdTime>2023-08-08 23:25:19 UTC</createdTime>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Party_Code" id="3600B9D9-5BB3-003D-7B9F-504F5A4C3B80">
+<createdBy>user</createdBy>
+<createdTime>2023-08-08 23:25:19 UTC</createdTime>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Contact_Details" id="CA873A54-FE11-F923-10B8-30A01E96E4CB">
+<createdBy>user</createdBy>
+<createdTime>2023-08-08 23:25:19 UTC</createdTime>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Election_Code" id="C2871220-91CD-206C-7CEC-24134BA5E957">
+<createdBy>user</createdBy>
+<createdTime>2023-08-08 23:25:20 UTC</createdTime>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Electorate" id="B8F49E9A-60FD-8705-D7EF-7DB3D9C20152">
+<createdBy>user</createdBy>
+<createdTime>2023-08-08 23:25:20 UTC</createdTime>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Party_Code1" id="60F4A4D7-3AED-2598-95C2-F8F7566F61F3">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 00:04:35 UTC</createdTime>
+<generatorID>0DBBDAE3-771F-5F40-89E1-DE60135C9A32</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<referedAttribute>B821B52B-1CAF-5ED9-8088-C4F38C2C132F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Detail_ID" id="121BA77D-CC7F-DC72-DD92-76D7C8F5A562">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 00:06:46 UTC</createdTime>
+<generatorID>BAB326B4-7BBF-CA12-24FA-722ABDC0B401</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<referedAttribute>4E9EBF44-4698-21F8-2A49-4E4D8A1A59A3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Election_Name" id="2F80F77C-E9D9-62B9-C113-53B9B8201BD0">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 02:35:49 UTC</createdTime>
+<generatorID>9B484BC2-2D85-4D52-DA9D-458B35ED0173</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<referedAttribute>8B6F49E8-376D-C7AB-AFDB-501D7B07FA0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ballot_ID" id="5B7D2B6B-82A7-01DE-14B3-62611B49C2EF">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 05:11:52 UTC</createdTime>
+<generatorID>4476D510-FBDE-DBF0-4685-314163478190</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<referedAttribute>2F6FDAD9-4AAC-D0F9-4C74-F7F9204A500B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A50F679F-F548-4093-B62E-E3F6B8924741" name="Candidate PK">
+<createdBy>user</createdBy>
+<createdTime>2023-08-08 23:36:11 UTC</createdTime>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7A9E9797-120B-4801-3A4F-E6E69FBDB814</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

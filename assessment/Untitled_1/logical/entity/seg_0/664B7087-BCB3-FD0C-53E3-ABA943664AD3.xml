@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="664B7087-BCB3-FD0C-53E3-ABA943664AD3" name="Ballot">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 12:41:41 UTC</createdTime>
+<generatorID>49B871B7-B380-CF3B-7978-A650124D8DE6</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="BallotID" id="F236AC38-704D-4604-B896-8FD5F264A57D">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 12:41:41 UTC</createdTime>
+<generatorID>7B31D722-C97F-3681-A88C-3870AA9DB585</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ElectorateName" id="C18BE2E1-D9FF-9467-F619-F1296D822FF6">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:01:01 UTC</createdTime>
+<generatorID>B2171DE2-F7CE-F85B-356F-4EA88ADF34C4</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<referedAttribute>675DEE4C-B2A6-AE52-B934-8AEF3E7B24E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ElectionID" id="BE17567C-340C-521D-A5C1-3CFC96EDF118">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:01:01 UTC</createdTime>
+<generatorID>B2171DE2-F7CE-F85B-356F-4EA88ADF34C4</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<referedAttribute>7F70BCDF-EED4-DC21-D190-4E9585156639</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F39233B7-CEF6-4D10-ECE7-8910B36D179A" name="Ballot_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 12:41:41 UTC</createdTime>
+<generatorID>259B0013-09C6-1BBC-E0AA-B65073A59F4C</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F236AC38-704D-4604-B896-8FD5F264A57D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

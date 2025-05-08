@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="23DA6DA3-8E93-4C06-0E0F-E5F6BD987531" name="Electorate">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 05:49:43 UTC</createdTime>
+<generatorID>B6F86B84-9002-5A9A-C560-43387F2C2501</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Election_Name" id="8A0E1B15-70C7-8B26-55BE-DF525CE78944">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 05:49:43 UTC</createdTime>
+<generatorID>8B6F49E8-376D-C7AB-AFDB-501D7B07FA0C</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Registered_Voters" id="B1846235-17F1-2866-97F5-F09483D06448">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 05:49:43 UTC</createdTime>
+<generatorID>38B710A4-7831-1587-651E-58E613B5B239</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Current_Member_Of_Parliament" id="194C5F46-3C60-6752-D36B-A60DB3EBC808">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 05:49:43 UTC</createdTime>
+<generatorID>C25CD763-D6E2-A8A3-7C80-4003F27963B9</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Election_Election_ID" id="496AB53A-1FF0-FBD6-2E7F-607CB5EAA8B7">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 05:49:43 UTC</createdTime>
+<generatorID>BFC71291-F4C3-6DD0-4A2C-D89F9868DA51</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9AC9D308-6AEB-E1BE-6E06-886A19F70DBD" referredColumn="8DD315FB-1B86-85D1-5993-6CE715F7E79A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AAA1D03D-3E34-D22B-F585-376B8DBA3711" name="Electorate_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 05:49:43 UTC</createdTime>
+<generatorID>46B7391A-CBEB-AFCE-042E-EA30A7CEF11E</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A0E1B15-70C7-8B26-55BE-DF525CE78944"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE665752-7A18-C964-0609-F940F390B008" name="Electorate__IDX">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 05:49:43 UTC</createdTime>
+<ownerDesignName>M1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7CFFDD09-D2C5-3A8F-082D-DC267F316E54</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="496AB53A-1FF0-FBD6-2E7F-607CB5EAA8B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1B2D0E5-E8EE-8DDF-D079-622C1AD71357" name="Electorate_Election_FK">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 05:49:43 UTC</createdTime>
+<generatorID>7CFFDD09-D2C5-3A8F-082D-DC267F316E54</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="496AB53A-1FF0-FBD6-2E7F-607CB5EAA8B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

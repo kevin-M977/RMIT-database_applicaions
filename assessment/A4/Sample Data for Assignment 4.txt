@@ -1,0 +1,34 @@
+
+Election Events:
+2022 Federal election for Hotham electorate
+2022 Federal election for Melbourne electorate
+
+Hotham Electorate:
+Candidates
+SOK, Edward - Liberal Democrats	
+O'NEIL, Clare - Australian Labor Party
+WILLOUGHBY, Louisa - The Greens	 
+RIDGWAY, Bruce Scott - United Australia Party	 
+TULL, Roger - Pauline Hanson's One Nation	 
+BEVINAKOPPA, Savitri - Liberal
+
+Melbourne Electorate:
+Candidates
+BORG, Justin - United Australia Party
+PATERSON, Keir - Australian Labor Party
+BANDT, Adam - The Greens
+DAMCHES, James - Liberal	 
+PEPPARD, Richard - Liberal Democrats 
+ROBSON, Scott - Independent 
+STRAGAN, Walter - Pauline Hanson's One Nation	 
+POON, Bruce - Animal Justice Party	 
+BOLGER, Colleen - Victorian Socialists	
+
+Voters
+Joe Bloggs
+Address: 124 Latrobe Street Melbourne VIC 3000
+Registered to vote in Melbourne Electorate 
+
+Penny Chan
+Address:246 Clayton Road, Clayton VIC 3168
+Registered to vote in Hotham Electorate 

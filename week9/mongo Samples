@@ -1,0 +1,135 @@
+1. Display all listings
+
+shell:
+db.listingsAndReviews.find()
+
+Compass
+Filter: {}
+
+2. Display selected fields
+
+Shell:
+db.listingsAndReviews.find({}, {name:1, listing_url:1, _id:0} )
+
+Compass:
+Project: {name:1, listing_url:1, _id:0}
+
+
+3. Display only listings with 3 bedrooms:
+
+Shell:
+db.listingsAndReviews.find({bedrooms: 3})
+
+Compass:
+Filter: {bedrooms: 3}
+
+4. Display name and URL for listings with 3 bedrooms
+Shell:
+db.listingsAndReviews.find({bedrooms: 3},{name:1, listing_url:1, _id:0})
+
+Compass:
+Filter: {bedrooms: 3}
+Project: {name:1, listing_url:1, _id:0}
+
+5. Display name and URL for listings with 3 bedroom Apartments
+Shell:
+db.listingsAndReviews.find({bedrooms: 3, property_type: "Apartment"}, {name:1, listing_url:1, _id:0})
+
+Compass:
+Filter: {bedrooms: 3, property_type: "Apartment"}
+Project: {name:1, listing_url:1, _id:0}
+
+6. Display name and URL for listings with property_type listed as  "Bed and breakfast" OR "Apartment"
+Shell:
+db.listingsAndReviews.find({$or:[{property_type: "Apartment"}, {property_type: "Bed and breakfast"}]}, {name:1, listing_url:1, _id:0})
+
+Compass:
+{$or:[{property_type: "Apartment"}, {property_type: "Bed and breakfast"}]}
+
+
+7: Display listings in Spain.
+This require querying on nested field within address object.
+Shell; 
+db.listingsAndReviews.find({"address.country": "Spain"})
+
+Compass:
+{"address.country": "Spain"}
+
+8. How many listings in Spain?
+Shell; 
+db.listingsAndReviews.find({"address.country": "Spain"}).count()
+
+
+
+9. Using partial matches:
+Show the listings with reviews containing keywords like "Nice" "Clean"
+Shell:
+db.listingsAndReviews.find({"reviews.comments":/Nice/ , "reviews.comments":/Clean/})
+Compass:
+{"reviews.comments":/Nice/ , "reviews.comments":/Clean/}
+
+
+Arrays:
+10: Show the listings that has exactly [TV, Cable TV] listed as amenities.
+This is not much useful in this example.
+{amenities:["TV", "Cable TV"]}
+
+Another example that can be more practical.
+Assume listing can be classified under different categories: 
+Find the listings that are categorised exactly as [Short-Term, Daily-Rate]
+
+11. List properties that has both TV an Cable TV?
+(This will select documents that contain TV and Cable TV in any place in the array, and may also contain other amenities in the array.)
+{amenities:{$all:["TV", "Cable TV"]}}
+
+12. List properties that has either Internet or Wifi.
+{amenities: { $in: [ "Internet", "Wifi" ] } }
+This is quite useful searching elements in an array.
+
+
+Query for a Document Nested in an Array
+In the AirBnB cocument collection, we have an array of feedback, and each feedback itself a document.
+13. List properties reviewed by Antoine.
+{ 'reviews.reviewer_name':  "Antoine" }
+
+----------
+Week 9:
+
+Using Pipeline:
+
+14. Counting Documents
+Shell:
+db.listingsAndReviews.aggregate({$count: "myCount"}) 
+
+Compass:
+Choose $count 
+Just enter a name/label for the count
+
+15. Grouped aggregation
+Show the number of listings in each room type
+Shell:
+db.listingsAndReviews.aggregate( { $sortByCount: "$room_type" } )
+
+Compass:
+"$room_type"  -- given template is buggy, remove any spaces or curly braces.
+
+16. A more comple one:
+Show the number of listings for each of the amenities.
+Amenities are in an array. First use $unwind function to separate them out, and then use $sortByCount function.
+
+Compass:
+Stage 1:
+{
+  path: "$amenities"
+
+}
+Stage 2:
+"$amenities"  -- no spaces allowed, a bug in Compass.
+
+$lookup
+{
+  from: 'movie',
+  localField: 'dirNumb',
+  foreignField: 'dirnumb',
+  as: 'director_movie'
+}

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="799565DE-314D-305A-2CBE-A942A248BDF5" name="Candidate">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 12:41:41 UTC</createdTime>
+<generatorID>9D7E75EF-F221-EAAC-557A-FE162C6F92D4</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CandidateID" id="6B2BD73D-9620-3DBD-F1DC-B1C512541DBB">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 12:41:41 UTC</createdTime>
+<generatorID>18A8EF48-AABC-CCBF-6DE2-8E41A1ED4A88</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CandidateName" id="0675C63B-88D2-992B-8D12-E2D1FA5996F8">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 12:41:41 UTC</createdTime>
+<generatorID>9C00CB14-8294-1280-AE51-F178D6A1A1A3</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ContactDetails" id="EACFD905-5641-63CD-2ECD-BCA09A026BC1">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 12:41:41 UTC</createdTime>
+<generatorID>61E6866B-409F-6A7E-E217-CA8F333FAA6C</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PartyCode" id="19E0D6B6-47A0-AC9F-6CBC-7E8403638720">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:01:56 UTC</createdTime>
+<generatorID>93C8307E-1281-E12A-54B5-1B83293661C4</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<referedAttribute>272976AC-3B27-E67E-7B83-1D034E7C494C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E873D1E5-9D35-9866-0954-3949079F53C0" name="Candidate_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 12:41:41 UTC</createdTime>
+<generatorID>D46C7E0C-30E5-1C79-3E4B-885E57DB756C</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6B2BD73D-9620-3DBD-F1DC-B1C512541DBB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

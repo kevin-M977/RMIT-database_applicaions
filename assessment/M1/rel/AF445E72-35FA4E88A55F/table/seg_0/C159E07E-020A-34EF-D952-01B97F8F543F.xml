@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C159E07E-020A-34EF-D952-01B97F8F543F" name="Election">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 05:49:43 UTC</createdTime>
+<generatorID>8893A731-DB4F-C1C1-CD4C-56D2357F5E65</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Election_ID" id="8DD315FB-1B86-85D1-5993-6CE715F7E79A">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 05:49:43 UTC</createdTime>
+<generatorID>4EBD981A-6F8E-D3B5-F035-4C2275387296</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Election_Date" id="6C9D00DE-35C7-94DD-2CDD-4B4065FD2732">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 05:49:43 UTC</createdTime>
+<generatorID>AE427387-3CC6-5CE2-4FAD-FFC22C53F424</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Election_Type" id="B4176433-0333-D274-23B0-DB6874842A20">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 05:49:43 UTC</createdTime>
+<generatorID>71A8EC07-0412-309C-F8D9-51A77632216D</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total_Voters" id="EB0D15A6-3833-199C-44DE-C505F18096AE">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 05:49:43 UTC</createdTime>
+<generatorID>67BFEA65-C313-FED3-08CF-37539C87ACC7</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4BF8BB78-EADD-92EB-1803-AA04726F2FAC" name="Election_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 05:49:43 UTC</createdTime>
+<generatorID>5A4D1647-9958-188C-FE63-F1F3C177514A</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DD315FB-1B86-85D1-5993-6CE715F7E79A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

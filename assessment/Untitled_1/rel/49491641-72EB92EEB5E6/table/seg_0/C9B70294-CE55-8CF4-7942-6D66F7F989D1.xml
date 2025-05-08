@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9B70294-CE55-8CF4-7942-6D66F7F989D1" name="ElectionMaster">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>AE33A972-ADB9-9DC9-F661-1A984C844C90</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ElectionID" id="2FC39A06-CBEB-00CD-D2A4-1C92C522DAB9">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>2285552F-47A4-BA29-1FA9-3548EB085002</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ElectionMasterID" id="7E71C4E5-B662-9EDA-1F4C-F51322E94E60">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>FD0FA440-1272-E320-F602-284B1606671C</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ElectionDate" id="17351EDA-8220-3CCE-0BBF-58538D9C1BAB">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>E634FA6D-D1F9-11A1-B36D-2C9D523E1173</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC83942B-C755-3831-78B9-3B450557D23A" name="ElectionMaster_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>7BC4FF88-AE9D-21B4-EABA-8CED7CFEA8A3</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FC39A06-CBEB-00CD-D2A4-1C92C522DAB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

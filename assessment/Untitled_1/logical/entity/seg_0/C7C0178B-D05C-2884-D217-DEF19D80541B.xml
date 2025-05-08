@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C7C0178B-D05C-2884-D217-DEF19D80541B" name="IssuanceRecord">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 12:41:41 UTC</createdTime>
+<generatorID>6237EAE6-AD7B-94CE-8E46-31BAFFA3C176</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IssueDate" id="ADFAE130-E406-00D3-8CC5-C7ED679C8737">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 12:41:41 UTC</createdTime>
+<generatorID>5B598104-90B2-1204-4021-910737A1FA7F</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssueTimestamp" id="53682E5C-FFCA-D25D-695B-A3C0D13FD5F0">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 12:41:41 UTC</createdTime>
+<generatorID>0DDF0E46-C936-4928-7881-58E32F9C1127</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PollingStation" id="42A5FA86-931D-053C-761C-D774229F72CE">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 12:41:41 UTC</createdTime>
+<generatorID>BF3A69C3-9528-33A8-0221-C76188A3191B</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ElectorateName" id="6E3AFF29-2313-715C-C2BB-F1448631BB06">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:00:22 UTC</createdTime>
+<generatorID>06D84918-B3D5-85D7-48D8-FC7948CF2C8B</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<referedAttribute>675DEE4C-B2A6-AE52-B934-8AEF3E7B24E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ElectionID" id="E4406252-434F-8FF8-BD47-BB091BBE1A0A">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:00:22 UTC</createdTime>
+<generatorID>06D84918-B3D5-85D7-48D8-FC7948CF2C8B</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<referedAttribute>7F70BCDF-EED4-DC21-D190-4E9585156639</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VoterID" id="E5D387AF-12BD-2122-E837-BB32C3B022B0">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:00:29 UTC</createdTime>
+<generatorID>EA471FC3-B944-450E-B0D1-ED29A399A4CB</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<referedAttribute>098A2B92-85EC-4097-276A-E15759839952</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8470024F-C636-6932-6498-1DD2C768120D" name="IssuanceRecord_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 12:41:41 UTC</createdTime>
+<generatorID>3967737B-E8B7-7130-5293-8221DF2BD6E0</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E5D387AF-12BD-2122-E837-BB32C3B022B0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

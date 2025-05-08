@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D472075-A0BE-7CF7-54B3-592435CA17C2" name="Party">
+<createdBy>user</createdBy>
+<createdTime>2023-08-08 23:13:15 UTC</createdTime>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Party_Code" id="B821B52B-1CAF-5ED9-8088-C4F38C2C132F">
+<createdBy>user</createdBy>
+<createdTime>2023-08-08 23:13:23 UTC</createdTime>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Party_Name" id="5287E620-6A4D-5909-2398-C4F2AB054178">
+<createdBy>user</createdBy>
+<createdTime>2023-08-08 23:13:23 UTC</createdTime>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Party_Logo" id="35D7D3DB-D2C5-088C-75EA-DB0AFB54631E">
+<createdBy>user</createdBy>
+<createdTime>2023-08-08 23:13:23 UTC</createdTime>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Party_Address" id="A50D48F2-D3C7-C0F7-9739-156529D5FC55">
+<createdBy>user</createdBy>
+<createdTime>2023-08-08 23:13:23 UTC</createdTime>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Secretary" id="3FC55359-9509-CA8D-3D19-E7552E31447C">
+<createdBy>user</createdBy>
+<createdTime>2023-08-08 23:13:23 UTC</createdTime>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Party_Contact_Email" id="6880AC24-337A-F91D-CE6C-0255B6DC0B30">
+<createdBy>user</createdBy>
+<createdTime>2023-08-08 23:13:24 UTC</createdTime>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F09E3180-F172-9E90-83B6-EC9F655B8C62" name="Party PK">
+<createdBy>user</createdBy>
+<createdTime>2023-08-08 23:33:05 UTC</createdTime>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B821B52B-1CAF-5ED9-8088-C4F38C2C132F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

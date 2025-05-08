@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7CA85BD9-DF1C-DFE2-5E8B-FE5566A121F2" name="PoliticalParty">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>B86F7CBC-1288-19E3-06B0-1259BFCF3361</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PartyCode" id="88A041B7-0F26-CF8A-40CD-71F4F57DD5A4">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>272976AC-3B27-E67E-7B83-1D034E7C494C</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PartyName" id="2BA95DAD-9723-D60B-F208-39CFD5C5E386">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>7AC9F74F-E8C3-70EE-7941-595F3149314D</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PartyLogo" id="0093BC8A-10D7-9E44-772B-7AEB843B7E1A">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>66243472-D7E8-DFC0-D34B-0A500BC1A029</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PartyAddress" id="76E405D5-D05D-E04B-7E43-08C928066805">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>B22D14C0-4B11-B0B1-45E5-B46C663261E6</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Secretary" id="73235679-B920-8A71-9AB6-BCDCA1EBFA99">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>F9EA5758-182C-AE55-F6EF-E7BBC5E8070F</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PartyContactEmail" id="E2F66980-B49D-DEAD-93C1-8B18243F9B8C">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>2B5BFAE7-B390-D91C-29CE-A0C0C5632ABA</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8CBC7DF-9383-9838-AAB2-3B8DF7049B32" name="PoliticalParty_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>94F178AB-4F51-0667-8C44-5187A5E0D8A1</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88A041B7-0F26-CF8A-40CD-71F4F57DD5A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

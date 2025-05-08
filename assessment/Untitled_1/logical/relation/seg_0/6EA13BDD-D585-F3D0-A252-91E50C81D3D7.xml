@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PrefDistribution VoteCountRound FK" directorySegmentName="seg_0" id="6EA13BDD-D585-F3D0-A252-91E50C81D3D7">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:03:08 UTC</createdTime>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<sourcePk>4F7D97A0-F140-7991-9142-0DFCB2905F71</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9AD19D20-A515-5BEF-BB54-6704096E0DCF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>82B73C3B-7238-03E3-48E8-5871E45F3173</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

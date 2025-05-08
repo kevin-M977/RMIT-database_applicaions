@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="82B73C3B-7238-03E3-48E8-5871E45F3173" name="PrefDistribution">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 12:41:41 UTC</createdTime>
+<generatorID>D9D18D77-6C0D-D5F3-69F4-97A4F1C6E702</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PrefCount" id="664B4716-375F-DCD1-CF06-785968F938F6">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 12:41:41 UTC</createdTime>
+<generatorID>F5F80CC8-1857-C53A-7EED-CE40317DA726</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CandidateID" id="E4A098D2-5E0C-AA35-9754-A3E929CFC54F">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:02:14 UTC</createdTime>
+<generatorID>EE793C49-D2FE-3075-C025-D99FB6A8608E</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<referedAttribute>6B2BD73D-9620-3DBD-F1DC-B1C512541DBB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RoundNum" id="EDE7BCA4-DC21-CECB-64B3-3E75E3C9E100">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:03:08 UTC</createdTime>
+<generatorID>6EA13BDD-D585-F3D0-A252-91E50C81D3D7</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<referedAttribute>5E603814-1CD6-997E-5F48-252D47696021</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ElectorateName" id="44B267CA-5FED-3BAB-DDEB-DD0C3C6D9AEA">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:03:27 UTC</createdTime>
+<generatorID>6EA13BDD-D585-F3D0-A252-91E50C81D3D7</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<referedAttribute>74629959-F3C6-EF59-8146-69608A1B1270</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ElectionID" id="F181926A-1F6D-61BF-6586-2D7183466BF4">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:03:27 UTC</createdTime>
+<generatorID>6EA13BDD-D585-F3D0-A252-91E50C81D3D7</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<referedAttribute>57386DB2-F559-781B-1E20-AF00C76175B9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2CD768FE-907C-33D0-BA5B-D3EB819B3CDB" name="PrefDistribution PK">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:02:14 UTC</createdTime>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E4A098D2-5E0C-AA35-9754-A3E929CFC54F</attributeRef>
+<attributeRef>EDE7BCA4-DC21-CECB-64B3-3E75E3C9E100</attributeRef>
+<attributeRef>44B267CA-5FED-3BAB-DDEB-DD0C3C6D9AEA</attributeRef>
+<attributeRef>F181926A-1F6D-61BF-6586-2D7183466BF4</attributeRef>
+<attributeRef>EDE7BCA4-DC21-CECB-64B3-3E75E3C9E100</attributeRef>
+<attributeRef>44B267CA-5FED-3BAB-DDEB-DD0C3C6D9AEA</attributeRef>
+<attributeRef>F181926A-1F6D-61BF-6586-2D7183466BF4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

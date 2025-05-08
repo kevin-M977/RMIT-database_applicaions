@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27C0EC98-EB34-5264-4334-1449A5AAE0C1" name="PrefDistribution">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>82B73C3B-7238-03E3-48E8-5871E45F3173</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PrefCount" id="8DC7BD6A-79D6-CA2D-13FE-180E9474710C">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>664B4716-375F-DCD1-CF06-785968F938F6</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RoundNum" id="10823DC3-B374-5627-C47C-825896BA0CD8">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>EDE7BCA4-DC21-CECB-64B3-3E75E3C9E100</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="181B1EEA-47DE-9DC2-D464-DBBD5369DEA2" referredColumn="37207833-D64B-3F88-FBB1-ADEC3328F4CF"/>
+</associations>
+</Column>
+<Column name="ElectorateName" id="A751A376-4842-D6F9-2EB7-48A0D081EB4C">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>44B267CA-5FED-3BAB-DDEB-DD0C3C6D9AEA</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="181B1EEA-47DE-9DC2-D464-DBBD5369DEA2" referredColumn="A879869A-C0BA-1CA6-E057-8779D2FE7C3F"/>
+</associations>
+</Column>
+<Column name="ElectionID" id="CC872436-E0C8-3AF5-53CA-840B3DB0886C">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>F181926A-1F6D-61BF-6586-2D7183466BF4</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="181B1EEA-47DE-9DC2-D464-DBBD5369DEA2" referredColumn="EA56527E-7068-47D3-14D9-62BEB11A2E6A"/>
+</associations>
+</Column>
+<Column name="CandidateID" id="CC8EFB5D-7341-7B0F-EDD1-66DFABAE1502">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>E4A098D2-5E0C-AA35-9754-A3E929CFC54F</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D33127C5-D204-96CE-9974-5E02481D72F1" referredColumn="4368C5E9-36DB-C5D1-5257-20552759913E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DAEB8CF2-D5FD-3D5B-395D-3F9B724D4559" name="PrefDistribution_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>2CD768FE-907C-33D0-BA5B-D3EB819B3CDB</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC8EFB5D-7341-7B0F-EDD1-66DFABAE1502"/>
+<colUsage columnID="10823DC3-B374-5627-C47C-825896BA0CD8"/>
+<colUsage columnID="A751A376-4842-D6F9-2EB7-48A0D081EB4C"/>
+<colUsage columnID="CC872436-E0C8-3AF5-53CA-840B3DB0886C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C7D8F8D-1367-6108-3AAC-2E8C7DE97EA6" name="PrefDistribution_Candidate_FK">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>EE793C49-D2FE-3075-C025-D99FB6A8608E</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC8EFB5D-7341-7B0F-EDD1-66DFABAE1502"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE79D1F7-0B34-2316-B9BF-88EC0A68BF51" name="PrefDistribution_VoteCountRound_FK">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>6EA13BDD-D585-F3D0-A252-91E50C81D3D7</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10823DC3-B374-5627-C47C-825896BA0CD8"/>
+<colUsage columnID="A751A376-4842-D6F9-2EB7-48A0D081EB4C"/>
+<colUsage columnID="CC872436-E0C8-3AF5-53CA-840B3DB0886C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

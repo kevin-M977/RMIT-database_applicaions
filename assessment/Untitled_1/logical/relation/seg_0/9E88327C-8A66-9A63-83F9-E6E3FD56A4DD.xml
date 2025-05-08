@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FinalResult ElectionEvent FK" directorySegmentName="seg_0" id="9E88327C-8A66-9A63-83F9-E6E3FD56A4DD">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:01:27 UTC</createdTime>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<sourcePk>ED70D42A-4345-AF76-CE00-26406A432330</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>93D77586-B455-BC32-C5EB-CF2A88C2393E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ACC64251-75D9-E49A-C51B-1AF58210009D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

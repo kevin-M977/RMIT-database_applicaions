@@ -1,0 +1,23 @@
+Task 2: Analyse different database platforms
+
+You have implemented the Computerised Voting application and the AirBnB-lite application using two very different database backends: (1) Oracle implementation in assignment 1; and (2) MongoDB implementation in assignment 2. In this Task, you are required to write a research report analysing these two implementations.
+
+The system requirements between these two applications are somewhat different. The current computerised voting system caters for about 17 million voters in Australia and manages 3-yearly federal elections. In contrast to that, Airbnb has 2.9 million hosts with 14,000 new hosts each month and 7 million listings worldwide. A registered voter record (a row in the VoterRegistry table) is much smaller than a document in listringsAndReviews document collection.
+
+Based on the findings from your two implementations, write a report identifying the advantages and disadvantages of both backend approaches and a conclusion making your recommendations. The following metrics can be used to compare two database backend implementations:
+
+• Query performance
+• Resource requirements (disk, memory, CPU, network bandwidth, etc)
+• Security issues, such as SQL injection
+• ACID properties, transaction and concurrency control
+• Scalability
+• Ability to handle massive volumes of data
+• Ability to execute complex queries
+• Data integrity
+• Differences in (for example media) data types
+
+Note that while the current implementation of the MongoDB database does not deal with security, you should consider how this would be handled in the real application. 
+
+Your report may also include case studies (implementations other than your computerised voting and AirBnB applications) for both paradigms and draw conclusions based on their findings.
+
+The report length should be between 1000 - 1500 words. You must be careful about quoting texts extracted from other sources. You can paraphrase them with proper referencing. Before you start your report, please refer RMIT Library Referencing Guide, available at: https://www.rmit.edu.au/library/study/referencing.

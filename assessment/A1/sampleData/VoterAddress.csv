@@ -1,0 +1,101 @@
+﻿AddressID,ResidentialAddress,ResidentialState,ResidentialPostcode,PostalAddress,PostalState,PostalPostcode
+a1,42 Koala Crescent,SA,5000,42 Koala Crescent,SA,5000
+a2,15 Wallaby Way,VIC,3000,15 Wallaby Way,VIC,3000
+a3,7 Wombat Road,VIC,3000,7 Wombat Road,VIC,3000
+a4,33 Kangaroo Street,NSW,2000,33 Kangaroo Street,NSW,2000
+a5,18 Emu Parade,SA,5000,18 Emu Parade,SA,5000
+a6,56 Platypus Lane,NSW,2000,56 Platypus Lane,NSW,2000
+a7,9 Kookaburra Close,TAS,7000,9 Kookaburra Close,TAS,7000
+a8,25 Eucalyptus Avenue,ACT,2600,25 Eucalyptus Avenue,ACT,2600
+a9,12 Tasman Terrace,VIC,2000,12 Tasman Terrace,VIC,2000
+a10,8 Barramundi Drive,NSW,2000,8 Barramundi Drive,NSW,2000
+a11,63 Coral Reef Road,NSW,4000,63 Coral Reef Road,NSW,4000
+a12,4 Ayers Rock Street,QLD,2000,4 Ayers Rock Street,QLD,2000
+a13,27 Great Barrier Avenue,NSW,4000,27 Great Barrier Avenue,NSW,4000
+a14,36 Bondi Beach Road,QLD,5000,36 Bondi Beach Road,QLD,5000
+a15,10 Uluru Lane,SA,4000,10 Uluru Lane,SA,4000
+a16,21 Bondi Junction,QLD,7000,21 Bondi Junction,QLD,7000
+a17,14 Sydney Harbor Drive,TAS,2000,14 Sydney Harbor Drive,TAS,2000
+a18,6 Surfers Paradise Blvd,NSW,6000,6 Surfers Paradise Blvd,NSW,6000
+a19,30 Yarra River Lane,WA,4000,30 Yarra River Lane,WA,4000
+a20,3 Great Ocean Road,QLD,3000,3 Great Ocean Road,QLD,3000
+a21,52 Blue Mountains Ave,VIC,6000,52 Blue Mountains Ave,VIC,6000
+a22,17 Red Centre Road,WA,2000,17 Red Centre Road,WA,2000
+a23,29 Gold Coast Highway,NSW,3000,29 Gold Coast Highway,NSW,3000
+a24,38 Kakadu Street,VIC,2600,38 Kakadu Street,VIC,2600
+a25,5 Barossa Valley Road,ACT,4000,5 Barossa Valley Road,ACT,4000
+a26,11 Margaret River Drive,WA,3000,11 Margaret River Drive,WA,3000
+a27,2 Whitsunday Bay Drive,QLD,2000,2 Whitsunday Bay Drive,QLD,2000
+a28,22 Coral Sea Crescent,VIC,3000,22 Coral Sea Crescent,VIC,3000
+a29,13 Hunter Valley Road,NSW,4000,13 Hunter Valley Road,NSW,4000
+a30,48 Sunshine Coast Blvd,VIC,7000,48 Sunshine Coast Blvd,VIC,7000
+a31,19 Byron Bay Lane,TAS,2600,19 Byron Bay Lane,TAS,2600
+a32,7 Daintree Drive,NSW,4000,7 Daintree Drive,NSW,4000
+a33,61 Great Ocean Road,VIC,6000,61 Great Ocean Road,VIC,6000
+a34,9 Kangaroo Island Way,VIC,2000,9 Kangaroo Island Way,VIC,2000
+a35,26 Phillip Island Road,VIC,2600,26 Phillip Island Road,VIC,2600
+a36,4 Bondi Beach Parade,WA,6000,4 Bondi Beach Parade,WA,6000
+a37,31 Surfers Paradise Road,NSW,6000,31 Surfers Paradise Road,NSW,6000
+a38,14 Kakadu Crescent,NSW,6000,14 Kakadu Crescent,NSW,6000
+a39,8 Barossa Valley Drive,WA,2000,8 Barossa Valley Drive,WA,2000
+a40,55 Blue Mountains Lane,QLD,3000,55 Blue Mountains Lane,QLD,3000
+a41,16 Uluru Street,VIC,2000,16 Uluru Street,VIC,2000
+a42,20 Sydney Harbor Road,QLD,4000,20 Sydney Harbor Road,QLD,4000
+a43,35 Great Barrier Lane,NSW,3000,35 Great Barrier Lane,NSW,3000
+a44,2 Byron Bay Street,VIC,6000,2 Byron Bay Street,VIC,6000
+a45,23 Daintree Avenue,WA,2000,23 Daintree Avenue,WA,2000
+a46,44 Phillip Island Lane,NSW,4000,44 Phillip Island Lane,NSW,4000
+a47,12 Hunter Valley Street,QLD,4000,12 Hunter Valley Street,QLD,4000
+a48,6 Sunshine Coast Drive,QLD,2000,6 Sunshine Coast Drive,QLD,2000
+a49,3 Kangaroo Island Parade,NSW,2600,3 Kangaroo Island Parade,NSW,2600
+a50,27 Margaret River Lane,ACT,4000,27 Margaret River Lane,ACT,4000
+a51,43 Koala Crescent,VIC,3000,43 Koala Crescent,VIC,3000
+a52,16 Wallaby Way,WA,6000,16 Wallaby Way,WA,6000
+a53,8 Wombat Road,NSW,2000,8 Wombat Road,NSW,2000
+a54,34 Kangaroo Street,NSW,2031,34 Kangaroo Street,NSW,2031
+a55,19 Emu Parade,WA,6101,19 Emu Parade,WA,6101
+a56,57 Platypus Lane,QLD,4000,57 Platypus Lane,QLD,4000
+a57,10 Kookaburra Close,VIC,3186,10 Kookaburra Close,VIC,3186
+a58,26 Eucalyptus Avenue,QLD,4215,26 Eucalyptus Avenue,QLD,4215
+a59,13 Tasman Terrace,NSW,6054,13 Tasman Terrace,NSW,6054
+a60,9 Barramundi Drive,VIC,2150,9 Barramundi Drive,VIC,2150
+a61,64 Coral Reef Road,WA,2200,64 Coral Reef Road,WA,2200
+a62,5 Ayers Rock Street,NSW,4350,5 Ayers Rock Street,NSW,4350
+a63,28 Great Barrier Avenue,QLD,3021,28 Great Barrier Avenue,QLD,3021
+a64,37 Bondi Beach Road,QLD,4551,37 Bondi Beach Road,QLD,4551
+a65,11 Uluru Lane,NSW,2320,11 Uluru Lane,NSW,2320
+a66,22 Bondi Junction,ACT,2560,22 Bondi Junction,ACT,2560
+a67,15 Sydney Harbor Drive,VIC,6019,15 Sydney Harbor Drive,VIC,6019
+a68,7 Surfers Paradise Blvd,WA,2075,7 Surfers Paradise Blvd,WA,2075
+a69,31 Yarra River Lane,NSW,6056,31 Yarra River Lane,NSW,6056
+a70,4 Great Ocean Road,NSW,3910,4 Great Ocean Road,NSW,3910
+a71,53 Blue Mountains Ave,WA,4220,53 Blue Mountains Ave,WA,4220
+a72,18 Red Centre Road,QLD,4500,18 Red Centre Road,QLD,4500
+a73,30 Gold Coast Highway,VIC,6169,30 Gold Coast Highway,VIC,6169
+a74,39 Kakadu Street,QLD,6160,39 Kakadu Street,QLD,6160
+a75,6 Barossa Valley Road,NSW,3131,6 Barossa Valley Road,NSW,3131
+a76,12 Margaret River Drive,VIC,4560,12 Margaret River Drive,VIC,4560
+a77,3 Whitsunday Bay Drive,WA,3204,3 Whitsunday Bay Drive,WA,3204
+a78,23 Coral Sea Crescent,NSW,4211,23 Coral Sea Crescent,NSW,4211
+a79,14 Hunter Valley Road,QLD,2749,14 Hunter Valley Road,QLD,2749
+a80,49 Sunshine Coast Blvd,QLD,6011,49 Sunshine Coast Blvd,QLD,6011
+a81,20 Byron Bay Lane,NSW,3031,20 Byron Bay Lane,NSW,3031
+a82,8 Daintree Drive,ACT,2145,8 Daintree Drive,ACT,2145
+a83,62 Great Ocean Road,VIC,2250,62 Great Ocean Road,VIC,2250
+a84,10 Kangaroo Island Way,WA,4352,10 Kangaroo Island Way,WA,4352
+a85,27 Phillip Island Road,NSW,2088,27 Phillip Island Road,NSW,2088
+a86,5 Bondi Beach Parade,NSW,3977,5 Bondi Beach Parade,NSW,3977
+a87,32 Surfers Paradise Road,WA,2756,32 Surfers Paradise Road,WA,2756
+a88,15 Kakadu Crescent,QLD,3922,15 Kakadu Crescent,QLD,3922
+a89,9 Barossa Valley Drive,VIC,4101,9 Barossa Valley Drive,VIC,4101
+a90,56 Blue Mountains Lane,QLD,2251,56 Blue Mountains Lane,QLD,2251
+a91,17 Uluru Street,NSW,3012,17 Uluru Street,NSW,3012
+a92,21 Sydney Harbor Road,VIC,4207,21 Sydney Harbor Road,VIC,4207
+a93,36 Great Barrier Lane,WA,2261,36 Great Barrier Lane,WA,2261
+a94,3 Byron Bay Street,NSW,3199,3 Byron Bay Street,NSW,3199
+a95,24 Daintree Avenue,QLD,4573,24 Daintree Avenue,QLD,4573
+a96,45 Phillip Island Lane,QLD,2113,45 Phillip Island Lane,QLD,2113
+a97,13 Hunter Valley Street,NSW,4570,13 Hunter Valley Street,NSW,4570
+a98,7 Sunshine Coast Drive,ACT,3088,7 Sunshine Coast Drive,ACT,3088
+a99,4 Kangaroo Island Parade,VIC,4212,4 Kangaroo Island Parade,VIC,4212
+a100,28 Margaret River Lane,WA,3046,28 Margaret River Lane,WA,3046

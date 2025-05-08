@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="A1_s3831370.log" id="6B0AD5C6-5F56-489F-5C99-1369288C73B3" version="3.5">
+<createdBy>user</createdBy>
+<createdTime>2023-09-11 18:02:07 UTC</createdTime>
+<ownerDesignName>A1_s3831370.log</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6B0AD5C6-5F56-489F-5C99-1369288C73B3</designId>
+</OSDM_Design>

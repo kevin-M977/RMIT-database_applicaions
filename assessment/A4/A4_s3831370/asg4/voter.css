@@ -1,0 +1,35 @@
+.card {
+    width: 100%;
+    margin: 20px auto;
+}
+
+img.logo {
+    margin-top: 20px;
+    width: 150px;
+    height: 117px;
+}
+
+
+h1.title {
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 10px;
+    height: 117px;
+    color: dimgray;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+h1.title1 {
+    color: dimgray;
+    font-size: 30px;
+}
+
+p.copyright {
+    margin-top: 0;
+    padding: 20px 0;
+    color: #727272;
+    text-align: center;
+    margin-bottom: 0;
+}

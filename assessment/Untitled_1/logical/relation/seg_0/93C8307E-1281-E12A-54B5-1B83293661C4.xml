@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Candidate PoliticalParty FK" directorySegmentName="seg_0" id="93C8307E-1281-E12A-54B5-1B83293661C4">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:01:56 UTC</createdTime>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<sourcePk>94F178AB-4F51-0667-8C44-5187A5E0D8A1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B86F7CBC-1288-19E3-06B0-1259BFCF3361</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>799565DE-314D-305A-2CBE-A942A248BDF5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

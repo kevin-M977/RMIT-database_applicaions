@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FinalResult Candidate FK" directorySegmentName="seg_0" id="78FD80CD-3014-5957-939C-130069B320C3">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:02:47 UTC</createdTime>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<sourcePk>E873D1E5-9D35-9866-0954-3949079F53C0</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>799565DE-314D-305A-2CBE-A942A248BDF5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ACC64251-75D9-E49A-C51B-1AF58210009D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

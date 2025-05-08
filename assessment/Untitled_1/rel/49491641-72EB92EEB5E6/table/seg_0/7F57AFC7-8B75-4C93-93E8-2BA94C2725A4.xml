@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F57AFC7-8B75-4C93-93E8-2BA94C2725A4" name="BallotPreferences">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>830F3E37-3558-80D7-CF69-443771F3AAC5</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Preference" id="67F9B022-C061-F304-71ED-6DA153224D3C">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>FCF97CD3-CBA4-E526-5768-B0BA54B31B3D</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BallotID" id="AB9BBA7C-E4C1-96A4-A10C-3616AA9F8161">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>84141B72-A92B-82E7-CACB-C08649E09921</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="786D7A9A-028B-E8B8-DD80-E16C82869B4D" referredColumn="01B61399-E1E7-D85C-8D97-9350E0C6DD40"/>
+</associations>
+</Column>
+<Column name="CandidateID" id="FA0DA9BF-663B-D88B-F4D2-BE611623A3F1">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>521DDFA8-A996-11B4-71B4-3FE4A7249B74</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7A72868-4E36-7538-05DE-EE54533C2FCB" referredColumn="4368C5E9-36DB-C5D1-5257-20552759913E"/>
+</associations>
+</Column>
+<Column name="ElectorateName" id="672519CC-4913-2B8D-E70B-7F86DD095CCB">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>F1C28C5F-7CFF-6111-A965-599A1E9635B9</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ElectionID" id="19F9CDAC-09C5-9318-7CA7-2853D33E2DA4">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>0C264C94-2E0E-2EF7-E94A-2B55D0D395DF</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D081F246-DDAC-F860-21BF-3647C98CA72D" name="BallotPreferences_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>5741726B-15E1-63FB-B1DC-F8277A7E4E40</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB9BBA7C-E4C1-96A4-A10C-3616AA9F8161"/>
+<colUsage columnID="FA0DA9BF-663B-D88B-F4D2-BE611623A3F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D33234CE-B8A1-CAF8-2892-1D1DA34C61FF" name="BallotPreferences_Candidate_FK">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>61070BE7-EB55-BD93-20BA-4FE87CDAA885</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA0DA9BF-663B-D88B-F4D2-BE611623A3F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5354BD05-B232-7D03-1B5C-EBF3359FDF34" name="BallotPreferences_Ballot_FK">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>8DA2C218-CFBC-EA36-62F0-705C9F4AC942</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB9BBA7C-E4C1-96A4-A10C-3616AA9F8161"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

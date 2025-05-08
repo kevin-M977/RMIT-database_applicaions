@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BallotPreferences Ballot FK" directorySegmentName="seg_0" id="8DA2C218-CFBC-EA36-62F0-705C9F4AC942">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:01:07 UTC</createdTime>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<sourcePk>F39233B7-CEF6-4D10-ECE7-8910B36D179A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>664B7087-BCB3-FD0C-53E3-ABA943664AD3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>830F3E37-3558-80D7-CF69-443771F3AAC5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

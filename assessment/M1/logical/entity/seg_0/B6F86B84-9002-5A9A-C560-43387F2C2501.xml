@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6F86B84-9002-5A9A-C560-43387F2C2501" name="Electorate">
+<createdBy>user</createdBy>
+<createdTime>2023-08-08 23:18:10 UTC</createdTime>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Election_Name" id="8B6F49E8-376D-C7AB-AFDB-501D7B07FA0C">
+<createdBy>user</createdBy>
+<createdTime>2023-08-08 23:18:48 UTC</createdTime>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Registered_Voters" id="38B710A4-7831-1587-651E-58E613B5B239">
+<createdBy>user</createdBy>
+<createdTime>2023-08-08 23:18:48 UTC</createdTime>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Current_Member_Of_Parliament" id="C25CD763-D6E2-A8A3-7C80-4003F27963B9">
+<createdBy>user</createdBy>
+<createdTime>2023-08-08 23:18:49 UTC</createdTime>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Election_ID" id="BFC71291-F4C3-6DD0-4A2C-D89F9868DA51">
+<createdBy>user</createdBy>
+<createdTime>2023-08-08 23:59:41 UTC</createdTime>
+<generatorID>7CFFDD09-D2C5-3A8F-082D-DC267F316E54</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<referedAttribute>4EBD981A-6F8E-D3B5-F035-4C2275387296</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="46B7391A-CBEB-AFCE-042E-EA30A7CEF11E" name="Electorate PK">
+<createdBy>user</createdBy>
+<createdTime>2023-08-08 23:36:03 UTC</createdTime>
+<ownerDesignName>M1</ownerDesignName>
+<engineerTo>
+<item key="AF445E72-8461-138C-B16F-35FA4E88A55F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8B6F49E8-376D-C7AB-AFDB-501D7B07FA0C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

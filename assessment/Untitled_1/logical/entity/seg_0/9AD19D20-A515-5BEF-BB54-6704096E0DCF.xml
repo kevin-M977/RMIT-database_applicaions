@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9AD19D20-A515-5BEF-BB54-6704096E0DCF" name="VoteCountRound">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 12:41:41 UTC</createdTime>
+<generatorID>39C20A07-FC64-9838-2B32-0ABA5C3B4333</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RoundNum" id="5E603814-1CD6-997E-5F48-252D47696021">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 12:41:41 UTC</createdTime>
+<generatorID>DFACA3C5-9CB1-7F21-3C1F-FDD349BECE7A</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ElectorateName" id="74629959-F3C6-EF59-8146-69608A1B1270">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:03:27 UTC</createdTime>
+<generatorID>68F1880C-E86E-3665-F613-1DF3A4562E99</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<referedAttribute>675DEE4C-B2A6-AE52-B934-8AEF3E7B24E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ElectionID" id="57386DB2-F559-781B-1E20-AF00C76175B9">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:03:27 UTC</createdTime>
+<generatorID>68F1880C-E86E-3665-F613-1DF3A4562E99</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<referedAttribute>7F70BCDF-EED4-DC21-D190-4E9585156639</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4F7D97A0-F140-7991-9142-0DFCB2905F71" name="VoteCountRound_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 12:41:41 UTC</createdTime>
+<generatorID>574D9D1E-E6A5-7B7E-4E1F-F97013E7E316</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5E603814-1CD6-997E-5F48-252D47696021</attributeRef>
+<attributeRef>74629959-F3C6-EF59-8146-69608A1B1270</attributeRef>
+<attributeRef>57386DB2-F559-781B-1E20-AF00C76175B9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

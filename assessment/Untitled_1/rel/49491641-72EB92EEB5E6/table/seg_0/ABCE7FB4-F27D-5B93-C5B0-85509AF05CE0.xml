@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ABCE7FB4-F27D-5B93-C5B0-85509AF05CE0" name="ElectionEvent">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>93D77586-B455-BC32-C5EB-CF2A88C2393E</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ElectorateName" id="A449E20D-C217-D407-2F9C-26CD7E26F807">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>675DEE4C-B2A6-AE52-B934-8AEF3E7B24E7</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9B773E0-8901-0C77-E21D-C6AD7CE046BC" referredColumn="30D471D2-8FFE-5DE3-70F9-62FAD9E6F488"/>
+</associations>
+</Column>
+<Column name="ElectionID" id="0013DD8D-134A-E566-7DFC-9C8A9C4EFBD8">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>7F70BCDF-EED4-DC21-D190-4E9585156639</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B88FF85C-E20E-90C8-413E-6EF6373EDD7F" referredColumn="2FC39A06-CBEB-00CD-D2A4-1C92C522DAB9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF0CC74B-1AB3-7E29-3353-1CB53CEB4A20" name="ElectionEvent_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>ED70D42A-4345-AF76-CE00-26406A432330</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A449E20D-C217-D407-2F9C-26CD7E26F807"/>
+<colUsage columnID="0013DD8D-134A-E566-7DFC-9C8A9C4EFBD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3634D825-E6EB-7793-AB67-A85BBE5F5A8D" name="ElectionEvent_Electorate_FK">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>93F96218-ED06-2CB2-8658-E6F1D40849A0</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A449E20D-C217-D407-2F9C-26CD7E26F807"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B79A7F1-DB01-BBB0-C824-A8D082CF951C" name="ElectionEvent_ElectionMaster_FK">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>96F2A6FC-CFB3-CB9D-3E90-2393AF99D0E9</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0013DD8D-134A-E566-7DFC-9C8A9C4EFBD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

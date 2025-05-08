@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28E64E55-5913-536F-7398-DF49D05ED7D1" name="Election_Details">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 05:49:43 UTC</createdTime>
+<generatorID>2B1D835E-4E2D-AE10-3FAA-11C3350C3AF8</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Detail_ID" id="51B9F024-7BB8-A975-5803-32A76B64E7C5">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 05:49:43 UTC</createdTime>
+<generatorID>4E9EBF44-4698-21F8-2A49-4E4D8A1A59A3</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total_Electorates" id="12C455AD-0082-58CC-9031-B8503D069606">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 05:49:43 UTC</createdTime>
+<generatorID>CFA8E18F-D542-FAF5-887A-12D5B279F000</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total_Voters" id="6605B9A3-306F-27FF-2D0F-DB40C90E059E">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 05:49:43 UTC</createdTime>
+<generatorID>AB09EB83-4A05-1CE0-EB38-CF4FBED20BBF</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Election_Election_ID" id="356DD176-099B-5086-D1B0-433816C21C2A">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 05:49:43 UTC</createdTime>
+<generatorID>ED7656A4-1454-E4BA-2F5C-ADCD987093D2</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0103EC8D-20DE-62FB-F004-C8FC5853A05E" referredColumn="8DD315FB-1B86-85D1-5993-6CE715F7E79A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E409BDE3-64D9-9482-4398-832CA8C19818" name="Election_Details_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 05:49:43 UTC</createdTime>
+<generatorID>4A36CF21-74B9-F157-BCDC-EA036E641780</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51B9F024-7BB8-A975-5803-32A76B64E7C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71115E48-A66D-C10F-0040-475B39402E22" name="Election_Details__IDX">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 05:49:43 UTC</createdTime>
+<ownerDesignName>M1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>98B53508-FEB3-7EF5-83D9-6028424DBB9C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="356DD176-099B-5086-D1B0-433816C21C2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15D5008D-1B64-5ADD-2CAE-FDB7042D4C88" name="Election_Details_Election_FK">
+<createdBy>user</createdBy>
+<createdTime>2023-08-09 05:49:43 UTC</createdTime>
+<generatorID>98B53508-FEB3-7EF5-83D9-6028424DBB9C</generatorID>
+<ownerDesignName>M1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="356DD176-099B-5086-D1B0-433816C21C2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

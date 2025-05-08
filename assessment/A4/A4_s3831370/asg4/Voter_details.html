@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Australia Electoral Role Search </title>
+    <link rel="stylesheet" href="voter.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="address.js"></script>
+
+</head>
+
+
+<body style="background-color:rgb(128, 128, 128);">
+    <style>
+        img {
+            width: 12%;
+        }
+    </style>
+    <div class="container">
+        <div class="row">
+            <img src="Logo.webp" alt="Logo">
+            <h1 class="title">House of Representatives </br>Ballot Paper</h1>
+            <div class="card">
+                <div class="card-header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h1 class="title1">Australia Electoral Role Search</h1>
+                                    <h5 class="title1">s3831370</h5>
+                                </div>
+                                <div class="card-body">
+                                    <form action="voter.php" method="post">
+                                        <div class="form-group was-validated">
+                                            <label for="Title">Title(Mr/Miss)</label>
+                                            <input type="text" class="form-control" name="title" id="title"
+                                                placeholder="Enter your Title" required>
+                                            <div class="invalid-feedback">Cant Blank!!</div>
+                                        </div>
+                                        <div class="form-group was-validated">
+                                            <label for="Firstname">FirstName</label>
+                                            <input type="text" class="form-control" name="Firstname" id="Firstname"
+                                                placeholder="Enter your Firstname" required>
+                                            <div class="invalid-feedback">Cant Blank!! </div>
+                                        </div>
+                                        <div class="form-group was-validated">
+                                            <label for="Lastname">LastName</label>
+                                            <input type="text" class="form-control" name="Lastname" id="Lastname"
+                                                placeholder="Enter your LastName" required>
+                                            <div class="invalid-feedback">Cant Blank!! </div>
+                                        </div>
+                                        <div class="form-group was-validated">
+                                            <label for="DOB">DateOfBirth</label>
+                                            <input type="date" class="form-control" name="DOB" id="DOB"
+                                                placeholder="Enter your DateOfBirth" required>
+                                            <div class="invalid-feedback">Cant Blank!! </div>
+                                        </div>
+
+
+                                        <div class="form-group was-validated">
+                                            <label for="Address">Address</label>
+                                            <input type="text" class="form-control" name="Address" id="Address"
+                                                placeholder="Search Address in here" required>
+                                            <div class="invalid-feedback">You can't leave a blank!!</div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="ApartmentNo">Apartment Suite, etc (optional)</label>
+                                            <input type="text" class="form-control" name="ApartmentNo" id="ApartmentNo"
+                                                placeholder=" ">
+                                        </div>
+                                        <div class="form-group was-validated">
+                                            <label for="Suburb">Suburb</label>
+                                            <input type="text" class="form-control" name="Suburb" id="Suburb"
+                                                placeholder="Search location by Address" required>
+                                            <div class="invalid-feedback">You can't leave a blank!!</div>
+                                        </div>
+                                        <div class=" was-validated">
+                                            <label for="State">State</label>
+                                            <input type="text" class="form-control" name="State" id="State"
+                                                placeholder=" " required>
+                                            <div class="invalid-feedback">You can't leave a blank!!</div>
+                                        </div>
+                                        <div class="form-group was-validated">
+                                            <label for="Postcode">Postcode</label>
+                                            <input type="text" class="form-control" name="Postcode" id="Postcode"
+                                                placeholder=" " required>
+                                            <div class="invalid-feedback">You can't leave a blank!!</div>
+                                        </div>
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" name="votedBefore"
+                                                id="votedBefore">
+                                            <label class="form-check-label" for="votedBefore">Have you voted before
+                                                in THIS election? (Tick if already voted)</label>
+                                        </div>
+                                        <div class="form-group was-validated">
+                                            <label for="PhoneNumber">PhoneNumber</label>
+                                            <input type="number" class="form-control" name="PhoneNumber"
+                                                id="PhoneNumber" placeholder="Enter your PhoneNumber" required>
+                                            <div class="invalid-feedback">You can't leave a blank!!</div>
+                                        </div>
+
+                                        <button type="next" class="btn btn-danger">Next</button>
+                                    </form>
+                                </div>
+                                <div class="card-footer text-muted">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

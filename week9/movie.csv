@@ -1,0 +1,25 @@
+mvNumb,mvTitle,yrMade,mvType,Crit,MPAA,Noms,Awrd,dirNumb
+1,Annie Hall,1977,COMEDY,4,PG,5,4,1
+2,Dr. Strangelove,1964,COMEDY,4,PG,4,0,5
+3,Clockwork Orange,1971,SCI FI,4,R,3,0,5
+4,North by Northwest,1959,SUSPEN,4,PG,1,0,2
+5,Rope,1948,SUSPEN,3,NR,0,0,2
+6,Psycho,1960,HORROR,4,PG,3,0,2
+7,Interiors,1978,DRAMA,3,PG,3,0,1
+8,The Birds,1963,HORROR,3,NR,0,0,2
+9,Samson and Delilah,1949,RELIGI,2,NR,1,0,3
+10,Guess Who's Coming to Dinner,1967,COMEDY,3,NR,6,2,4
+11,Manhattan,1979,COMEDY,4,R,2,0,1
+12,Vertigo,1958,SUSPEN,4,NR,0,0,2
+13,Judgment at Nuremberg,1961,DRAMA,3,NR,6,2,4
+14,2001,1968,SCI FI,4,G,2,0,5
+15,The Man with the Golden Arm,1955,DRAMA,3,NR,1,0,6
+16,Anatomy of Murder,1959,SUSPEN,4,NR,4,0,6
+17,Inherit the Wind,1960,DRAMA,4,NR,2,0,4
+18,Laura,1944,SUSPEN,4,NR,3,1,6
+19,The Ten Commandments,1956,RELIGI,3,NR,1,0,3
+20,The Moon is Blue,1953,COMEDY,2,NR,1,0,6
+21,Stagecoach,1939,WESTER,4,NR,3,1,7
+22,Rear Window,1954,SUSPEN,4,NR,1,0,2
+23,Mogambo,1953,WESTER,3,NR,2,0,7
+24,Grapes of Wrath,1940,DRAMA,4,NR,4,2,7

@@ -1,0 +1,41 @@
+﻿PartyCode,PartyName,PartyLogo,PartyAddress,Secretary,PartyContactEmail
+ALP,AustrAustralian Labor Party,alp_logo.png,"123 Smith Street, Sydney, NSW 2000",John Smith,alp@example.com
+LNP,Liberal National Party,lnp_logo.png,"456 Johnson Avenue, Brisbane, QLD 4000",Sarah Brown,lnp@example.com
+GRN,The Greens,grn_logo.png,"789 Greenway Lane, Melbourne, VIC 3000",Emma Green,grn@example.com
+LIB,Liberal Party,lib_logo.png,"567 Conservative Road, Canberra, ACT 2600",Michael Turner,lib@example.com
+NAT,National Party,nat_logo.png,"890 Country Drive, Darwin, NT 0800",David Clarke,nat@example.com
+ONP,One Nation Party,onp_logo.png,"234 Freedom Street, Perth, WA 6000",Lisa Anderson,onp@example.com
+PHON,Pauline Hanson's One Nation,phon_logo.png,"101 Fairness Avenue, Adelaide, SA 5000",Paul Brown,phon@example.com
+CLP,Country Liberal Party,clp_logo.png,"456 Outback Drive, Alice Springs, NT 0870",Karen White,clp@example.com
+IND,Independent,ind_logo.png,"789 Freedom Street, Hobart, TAS 7000",Independent Candidate,independent@example.com
+SGP,Socialist Green Party,sgp_logo.png,"321 Equality Lane, Cairns, QLD 4870",Sarah Green,sgp@example.com
+PUP,Palmer United Party,pup_logo.png,"567 Wealth Street, Gold Coast, QLD 4217",Clive Palmer,pup@example.com
+CCP,Communist Party,ccp_logo.png,"456 Revolution Road, Townsville, QLD 4810",Karl Marx,ccp@example.com
+DEM,Australian Democrats,dem_logo.png,"789 Democracy Lane, Darwin, NT 0800",Jane Smith,dem@example.com
+REP,Republican Party,rep_logo.png,"234 Freedom Avenue, Melbourne, VIC 3000",Mark Johnson,rep@example.com
+CDP,Christian Democratic Party,cdp_logo.png,"101 Faith Street, Canberra, ACT 2600",Christine Brown,cdp@example.com
+FF,Family First Party,ff_logo.png,"456 Family Drive, Sydney, NSW 2000",Mary Davis,ff@example.com
+UAP,United Australia Party,uap_logo.png,"567 Unity Lane, Perth, WA 6000",Andrew Smith,uap@example.com
+LDP,Liberal Democratic Party,ldp_logo.png,"890 Freedom Street, Adelaide, SA 5000",David Anderson,ldp@example.com
+AJP,Animal Justice Party,ajp_logo.png,"123 Animal Rights Avenue, Hobart, TAS 7000",Sarah Turner,ajp@example.com
+FFP,Federation for Freedom Party,ffp_logo.png,"789 Liberty Lane, Darwin, NT 0800",Peter Green,ffp@example.com
+SWP,Socialist Workers Party,swp_logo.png,"456 Equality Road, Melbourne, VIC 3000",Sarah Brown,swp@example.com
+CEC,Citizens Electoral Council,cec_logo.png,"101 Democracy Drive, Canberra, ACT 2600",John Davis,cec@example.com
+WEP,Women's Equality Party,wep_logo.png,"234 Gender Equality Street, Perth, WA 6000",Emma Smith,wep@example.com
+JLN,Jacqui Lambie Network,jln_logo.png,"567 Fairness Avenue, Brisbane, QLD 4000",Jacqui Lambie,jln@example.com
+AAP,Australian Progressives,aap_logo.png,"890 Progress Lane, Sydney, NSW 2000",Andrew Brown,aap@example.com
+SP,Science Party,sp_logo.png,"123 Innovation Road, Melbourne, VIC 3000",Sarah Turner,sp@example.com
+SHS,"Shooters, Fishers, and Farmers Party",shs_logo.png,"456 Firearms Drive, Brisbane, QLD 4000",David Smith,shs@example.com
+FLUX,Flux Party,flux_logo.png,"789 Digital Lane, Sydney, NSW 2000",John Green,flux@example.com
+SAB,Save Australia Party,sab_logo.png,"101 Rescue Drive, Adelaide, SA 5000",Sarah Johnson,sab@example.com
+ARP,Australia's Renewal Party,arp_logo.png,"234 Renewable Avenue, Darwin, NT 0800",Peter Brown,arp@example.com
+DP,Derryn Hinch's Justice Party,dp_logo.png,"456 Justice Road, Melbourne, VIC 3000",Derryn Hinch,dp@example.com
+NATL,Nationalist Party,natl_logo.png,"101 Patriot Drive, Canberra, ACT 2600",Sarah Davis,natl@example.com
+VL,Voluntary Euthanasia Party,vl_logo.png,"234 Dignity Lane, Sydney, NSW 2000",David Turner,vl@example.com
+HEMP,Help End Marijuana Prohibition Party,hemp_logo.png,"789 Cannabis Lane, Melbourne, VIC 3000",Emma Brown,hemp@example.com
+NCA,Non-Custodial Parents Party,nca_logo.png,"456 Parenting Avenue, Canberra, ACT 2600",John Smith,nca@example.com
+AVP,Angry Victorians Party,avp_logo.png,"111 Hogan Street, Tatura, VIC 3616",Nicole Elizabeth Freeman,avp@example.com
+DLP,Democratic Labour Party,dlp_logo.png,"411 Flemington Road, North Melbourne, VIC 3001",Cary de Wit,dlp@example.com
+FPV,Freedom Party of Victoria,fpv_logo.png,"8/200 Collins Street, Melbourne, VIC 3000",Aidan McLindon,fpv@example.com
+HAP,Health Australia Party,hap_logo.png,"170 Melbourne Road, Williamstown, VIC 3016",Lisa Bentley,hap@example.com
+ND,New Democrats,nd_logo.png,"4 James Street, Laverton North, VIC 3026",Kaushaliya Virjibhai Vaghela,nd@example.com

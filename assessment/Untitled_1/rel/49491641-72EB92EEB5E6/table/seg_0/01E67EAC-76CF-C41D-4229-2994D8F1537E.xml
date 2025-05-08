@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01E67EAC-76CF-C41D-4229-2994D8F1537E" name="VoteCountRound">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>9AD19D20-A515-5BEF-BB54-6704096E0DCF</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RoundNum" id="37207833-D64B-3F88-FBB1-ADEC3328F4CF">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>5E603814-1CD6-997E-5F48-252D47696021</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ElectorateName" id="A879869A-C0BA-1CA6-E057-8779D2FE7C3F">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>74629959-F3C6-EF59-8146-69608A1B1270</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6FEAC056-F6A3-E2B2-944E-461E80581ADD" referredColumn="A449E20D-C217-D407-2F9C-26CD7E26F807"/>
+</associations>
+</Column>
+<Column name="ElectionID" id="EA56527E-7068-47D3-14D9-62BEB11A2E6A">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>57386DB2-F559-781B-1E20-AF00C76175B9</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6FEAC056-F6A3-E2B2-944E-461E80581ADD" referredColumn="0013DD8D-134A-E566-7DFC-9C8A9C4EFBD8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0590BF6B-7F85-B6FD-4D83-5BB784B6B5CE" name="VoteCountRound_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>4F7D97A0-F140-7991-9142-0DFCB2905F71</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37207833-D64B-3F88-FBB1-ADEC3328F4CF"/>
+<colUsage columnID="A879869A-C0BA-1CA6-E057-8779D2FE7C3F"/>
+<colUsage columnID="EA56527E-7068-47D3-14D9-62BEB11A2E6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFB8C697-8763-8B34-7378-2A059ED4B859" name="VoteCountRound_ElectionEvent_FK">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:09:01 UTC</createdTime>
+<generatorID>68F1880C-E86E-3665-F613-1DF3A4562E99</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A879869A-C0BA-1CA6-E057-8779D2FE7C3F"/>
+<colUsage columnID="EA56527E-7068-47D3-14D9-62BEB11A2E6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

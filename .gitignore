@@ -1,0 +1,16 @@
+﻿# Ignore large binaries
+mongodb-compass-*/MongoDBCompass.exe
+sqldeveloper/**/jfxwebkit.dll
+sqldeveloper/jdk/jre/lib/modules
+
+# Other common ignores
+*.exe
+*.dll
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+*.iso
+*.jar
+node_modules/

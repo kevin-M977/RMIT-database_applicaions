@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="830F3E37-3558-80D7-CF69-443771F3AAC5" name="BallotPreferences">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 12:41:41 UTC</createdTime>
+<generatorID>812A0F8F-2B2B-EFFF-3EB1-224B634E838A</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Preference" id="FCF97CD3-CBA4-E526-5768-B0BA54B31B3D">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 12:41:41 UTC</createdTime>
+<generatorID>D178AFE7-37F3-8854-9DD7-340BFAECCCB2</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BallotID" id="84141B72-A92B-82E7-CACB-C08649E09921">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:01:07 UTC</createdTime>
+<generatorID>8DA2C218-CFBC-EA36-62F0-705C9F4AC942</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<referedAttribute>F236AC38-704D-4604-B896-8FD5F264A57D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CandidateID" id="521DDFA8-A996-11B4-71B4-3FE4A7249B74">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:03:37 UTC</createdTime>
+<generatorID>61070BE7-EB55-BD93-20BA-4FE87CDAA885</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<referedAttribute>6B2BD73D-9620-3DBD-F1DC-B1C512541DBB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ElectorateName" id="20E25997-0A79-E44D-8233-C93914313636">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 19:52:16 UTC</createdTime>
+<generatorID>672519CC-4913-2B8D-E70B-7F86DD095CCB</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ElectionID" id="89FCA5EA-F66E-39FD-BD4D-18C2B018E166">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 19:52:16 UTC</createdTime>
+<generatorID>19F9CDAC-09C5-9318-7CA7-2853D33E2DA4</generatorID>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5741726B-15E1-63FB-B1DC-F8277A7E4E40" name="BallotPreferences PK">
+<createdBy>user</createdBy>
+<createdTime>2023-09-12 13:01:07 UTC</createdTime>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<engineerTo>
+<item key="49491641-6393-ACEF-2CE6-72EB92EEB5E6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>84141B72-A92B-82E7-CACB-C08649E09921</attributeRef>
+<attributeRef>521DDFA8-A996-11B4-71B4-3FE4A7249B74</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
